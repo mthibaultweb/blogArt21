@@ -1,7 +1,7 @@
 <?
 // CRUD MOTCLEARTICLE (ETUD)
 
-	require_once __DIR__ . './../../CONNECT/database.php';
+	require_once __DIR__ . './../CONNECT/database.php';
 
 	class MOTCLEARTICLE{
     function get_AllMotCleArticle(){

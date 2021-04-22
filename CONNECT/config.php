@@ -11,5 +11,5 @@
   // nom utilisateur de connexion à la BDD
   $userBD = 'dbo822209643';         // Votre login
   // mot de passe de connexion à la BDD
-  $passBD = 'mmi-2020';         // Votre Pass
+  $passBD = 'Mieux VauT 2manDer Pardon que permissioN';         // Votre Pass
 ?>

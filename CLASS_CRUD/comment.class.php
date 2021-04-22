@@ -1,7 +1,7 @@
 <?
 // CRUD COMMENT
 
-require_once __DIR__ . './../../CONNECT/database.php';
+require_once __DIR__ . './../CONNECT/database.php';
 
 	class COMMENT{      
 

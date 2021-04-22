@@ -1,7 +1,7 @@
 <?
 	// CRUD LANGUE (ETUD)
 
-	require_once __DIR__ . './../../CONNECT/database.php';
+	require_once __DIR__ . './../CONNECT/database.php';
 
 	class LANGUE{
 		function get_1Langue($numLang){
