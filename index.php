@@ -11,18 +11,18 @@ $page = basename($_SERVER["SCRIPT_FILENAME"]);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     
-    <link rel="stylesheet" href="./../../assets/css/normalize.css">
+    <link rel="stylesheet" href="./front/assets/css/normalize.css">
 
-    <link rel="stylesheet" href="./../../assets/css/nav.css">
-    <link rel="stylesheet" href="./../../assets/css/cookies.css">
-    <link rel="stylesheet" href="./../../assets/css/banner.css"> 
+    <link rel="stylesheet" href="./front/assets/css/nav.css">
+    <link rel="stylesheet" href="./front/assets/css/cookies.css">
+    <link rel="stylesheet" href="./front/assets/css/banner.css"> 
 
-    <link rel="stylesheet" href="./../../assets/css/presentation.css"> 
-    <link rel="stylesheet" href="./../../assets/css/accueil.css"> 
+    <link rel="stylesheet" href="./front/assets/css/presentation.css"> 
+    <link rel="stylesheet" href="./front/assets/css/accueil.css"> 
 
-    <link rel="stylesheet" href="./../../assets/css/footer.css">
+    <link rel="stylesheet" href="./front/assets/css/footer.css">
 
-    <!-- popup mentions légales <link rel="stylesheet" href="../../assets/css/popUp.css"> -->
+    <!-- popup mentions légales <link rel="stylesheet" href="front/assets/css/popUp.css"> -->
 
     <!-- Script pour les réseaux sociaux -->
     <script src="https://kit.fontawesome.com/68b1f887b3.js" crossorigin="anonymous"></script>
@@ -32,18 +32,18 @@ $page = basename($_SERVER["SCRIPT_FILENAME"]);
 <body class="corp">
 
     <?
-        include __DIR__ ."./../commons/navbar.php";
+        include __DIR__ ."./front/includes/commons/navbar.php";
 
-        include __DIR__ ."./../components/cookies.php";
+        include __DIR__ ."./front/includes/components/cookies.php";
 
-        include __DIR__ ."./../commons/banner.php";
+        include __DIR__ ."./front/includes/commons/banner.php";
 
-        include __DIR__ ."./../components/presentation.php";
+        include __DIR__ ."./front/includes/components/presentation.php";
 
     ?>
     <main class="wrapper">
         <div class="articles">
-            <img class="imgArticles" src="./../../assets/images/banniere_Alber.png" alt="Une image"> <!-- Image Alber -->
+            <img class="imgArticles" src="./front/assets/images/banniere_Alber.png" alt="Une image"> <!-- Image Alber -->
             
             <div class="articleOverlay">
                 <h1 class="grand_titre"> Street Art - L'art Illégal</h1>
@@ -64,13 +64,13 @@ $page = basename($_SERVER["SCRIPT_FILENAME"]);
                         <line x1="2.49997" y1="0.987637" x2="2.77691" y2="56.987" stroke="#FFF3FB" stroke-width="5"/>
                     </svg>
                 </div> 
-                <a class="btn_footer" href="./article.php?id=55">VOIR L'ARTICLE</a>
+                <a class="btn_footer" href="./front/includes/pages/article.php?id=55">VOIR L'ARTICLE</a>
             </div>
 
         </div> 
 
         <div class="articles">
-            <img class="imgArticles" src="./../../assets/images/baniere_base_sous_marine_1.jpg" alt="Une image"> <!-- Image Alber -->
+            <img class="imgArticles" src="./front/assets/images/baniere_base_sous_marine_1.jpg" alt="Une image"> <!-- Image Alber -->
             
             <div class="articleOverlay">
                 <h1 class="grand_titre">La face des bassins de Lumières</h1>
@@ -89,13 +89,13 @@ $page = basename($_SERVER["SCRIPT_FILENAME"]);
                         <line x1="2.49997" y1="0.987637" x2="2.77691" y2="56.987" stroke="#FFF3FB" stroke-width="5"/>
                     </svg>
                 </div> 
-                <a class="btn_footer" href="./article.php?id=56">VOIR L'ARTICLE</a>
+                <a class="btn_footer" href="./front/includes/pages/article.php?id=56">VOIR L'ARTICLE</a>
             </div>
 
         </div> 
 
         <div class="articles">
-            <img class="imgArticles" src="./../../assets/images/banniere_mascarons.png" alt="Une image"> <!-- Image Alber -->
+            <img class="imgArticles" src="./front/assets/images/banniere_mascarons.png" alt="Une image"> <!-- Image Alber -->
             
             <div class="articleOverlay">
                 <h1 class="grand_titre"> Mascarons de Bordeaux</h1>
@@ -114,14 +114,14 @@ $page = basename($_SERVER["SCRIPT_FILENAME"]);
                         <line x1="2.49997" y1="0.987637" x2="2.77691" y2="56.987" stroke="#FFF3FB" stroke-width="5"/>
                     </svg>
                 </div> 
-                <a class="btn_footer" href="./article.php?id=57">VOIR L'ARTICLE</a>
+                <a class="btn_footer" href="./front/includes/pages/article.php?id=57">VOIR L'ARTICLE</a>
             </div>
 
         </div> 
     </main>
     <!--------------------------------------------- Partie Footer --------------------------------------------------->
     <?
-    include __DIR__."./../commons/footer.php";
+    include __DIR__.".front/includes//commons/footer.php";
     ?>
     </body>
 </html>
