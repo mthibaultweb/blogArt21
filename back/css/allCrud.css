@@ -1,0 +1,31 @@
+body {
+    background-color: #FFF3FB;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+h1 {
+    font-family: 'bebas neue';
+}
+
+.crudAlign {
+    width: 500px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+p {
+    font-family: 'Lato';
+}

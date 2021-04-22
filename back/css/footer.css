@@ -1,0 +1,33 @@
+.fullpage {
+    background-color: #FFF3FB;
+}
+
+.bas_back {
+    padding: 50px 0;
+    background-color: #8E6E53;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+    width: 100%;
+}
+
+.button {
+    color: #FFF3FB;
+    background-color: #433E3F;
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato';
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+.button:hover {
+    color: #FFF3FB;
+    background-color: #113638;
+    cursor: pointer;
+}

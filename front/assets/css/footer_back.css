@@ -1,0 +1,33 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 17%;
+}
+
+body{
+    background-color: #FFF3FB;
+}
+
+.bas_back {
+    padding: 100px 0;
+    background-color:#8E6E53;
+    height: 30%;
+}   
+
+.button{
+    color:#FFF3FB;
+    background-color: #433E3F;
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato';
+    margin-left: 5em;
+}
+
+.button:hover{
+    color: #FFF3FB;
+    background-color: #113638;
+}

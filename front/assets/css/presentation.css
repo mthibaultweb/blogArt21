@@ -1,0 +1,24 @@
+.presentation {
+    display: flex;
+    align-items: center;
+    margin: 100px 20%;
+    /* width: 55vw; */
+    color: #113537;
+    z-index: 9;
+}
+
+.presentation_titre {
+    font-family: 'Bebas Neue', 'regular';
+    font-size: 1.5em;
+    color: #113537;
+    writing-mode: vertical-lr;
+    border-right: 12px solid #113537;
+    margin-right: 2%;
+    padding-right: 2%;
+}
+
+.presentation_texte {
+    font-size: 1.3em;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+}

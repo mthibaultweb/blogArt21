@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2? family = Bebas + Neue & display = swap');
+
+body {
+    background-color: black;    
+}
+
+/* Tout ce qui concerne le menu burger et son aspect */
+
+.btn_burger {
+    position: absolute;
+    right: 30px;
+    left: 30px;
+    z-index: 20;
+}
+
+.btn_burger .barre {
+    width: 30px;
+    height: 3px;
+    background: #FFF3FB;
+    margin-top: 3px;
+}
+
+/* Tout ce qui concerne l'intèrieur du menu burger */ 
+
+.nav_barre {
+    position: fixed;
+    left: 0;
+    padding: 0 30px;
+    background: #433E3F;
+    width: 20%;
+    height: 100%;
+
+    transform: translateX(100%);
+    --transform: translateX(100%);
+}
+
+.nav_barre ul {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.nav_barre ul, li {
+    margin: 10px 0;
+}
+
+.nav_barre ul, li, a{
+    color: #FFF3FB;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: normal;
+    list-style: none;   
+    margin: 0 10px; 
+    font-family: "Bebas Neue", sans-serif;
+}

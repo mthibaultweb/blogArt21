@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2? family = Bebas + Neue & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Lato & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Merriweather & display = swap');
+
+/* ----------------------------- Partie sur les boutons ----------------------------- */
+
+.button {
+    color: #FFF3FB;
+    background-color: #433E3F;
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato';
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #FFF3FB;
+    background-color: #113638;
+}
+
+
+/* ---------------------- Fin Partie sur les boutons ------------------------------ */
+
+.overlay {
+    padding-top: 18em;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popup {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 20% auto;
+    width: 70%;
+    background-color: rgb(228, 228, 228);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
+
+.btnClose {
+    padding: 22px 5px;
+    font-size: 50px;
+    float: right;
+    cursor: pointer;
+    color: #201D1E
+}
+
+
+/*textes et titres popup*/
+
+.titre_cookie {
+    font-family: "Bebas Neue";
+    font-size: 20pt;
+    color: #201D1E;
+    text-align: center;
+}
+
+.para_cookie {
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 10pt;
+    color: #201D1E;
+}
+
+.button {
+    color: #FFF3FB;
+    background-color: #433E3F;
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato';
+}
+
+.button:hover {
+    color: #FFF3FB;
+    background-color: #113638;
+}

@@ -1,0 +1,79 @@
+body {
+    background-color: #FFF3FB;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.button {
+    color: #FFF3FB;
+    background-color: #433E3F;
+    padding: 10px 40px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato';
+}
+
+.button:hover {
+    color: #FFF3FB;
+    background-color: #113638;
+}
+
+h1 {
+    font-family: 'Lato';
+}
+
+p {
+    font-family: 'Lato';
+}
+
+label {
+    font-family: 'Bebas Neue';
+    font-size: 23px;
+}
+
+input {
+    font-family: 'Lato';
+    font-size: 20px;
+}
+
+input[type=text] {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 15em;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+input[type=password] {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 15em;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.icon {
+    margin-top: 7em;
+}
+
+.obligatoire {
+    margin-left: -10em;
+}
+
+.messageInscri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

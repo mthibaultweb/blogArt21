@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.profil {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 60%;
+}
+
+.infoProfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button.btnProfil {
+    margin: 10px;
+}
+
+label {
+    font-family: 'Lato', sans-serif;
+    color: #201d1e;
+    font-size: 1.9em;
+    margin: 10px 0;
+}
+
+.labelProfil {
+    margin: 10px;
+}
+
+
+/* body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #FFF3FB;
+    color: #201d1e;
+    overflow: visible;
+    font-size: 2.1875em;
+    overflow-x: hidden;
+}
+
+#center {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    width: 80vw;
+}
+
+#pp {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.formulaire {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background: none;
+    color: #201d1e;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #201d1e;
+    padding-left: 10px;
+    width: 20vw;
+    text-align: center;
+}
+
+#titrepseudo {
+    font-family: 'Bebas Neue';
+}
+
+.button {
+    color: #FFF3FB;
+    background-color: #433E3F;
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato';
+    font-size: 50%;
+    margin-bottom: 1em;
+}
+
+.button2 {
+    color: #FFF3FB;
+    background-color: #433E3F;
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato';
+    font-size: 50%;
+    margin-bottom: 1em;
+    transform: translateX(-50%);
+}
+
+.button:hover {
+    color: #FFF3FB;
+    background-color: #071718;
+} */

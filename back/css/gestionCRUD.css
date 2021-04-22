@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2family=Lato&display=swap');
+.wrapper {
+    background-color: #FFF3FB;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Titre {
+    text-align: center;
+    margin-top: 18vh;
+    margin-bottom: 12vh;
+}
+
+.Titre h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+}
+
+.Titre h2 {
+    font-family: 'Lato', sans-serif;
+    Font-size: 2.1em;
+}
+
+.button {
+    color: #FFF3FB;
+    text-decoration: none;
+    background-color: #433E3F;
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.button:hover {
+    color: #FFF3FB;
+    background-color: #113638;
+}
+
+.creerBt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tableArea {
+    margin: 50px 100px;
+    width: 85%;
+    overflow-x: scroll;
+}
+
+.tableau {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.15em;
+    border: medium solid black;
+    border-radius: 8px;
+    border-collapse: collapse;
+    justify-content: center;
+}
+
+th {
+    padding: 10px;
+    background-color: #113537;
+    color: #FFF3FB;
+}
+
+td {
+    font-family: sans-serif;
+    border: thin solid;
+    padding: 5px;
+    text-align: center;
+}

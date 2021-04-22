@@ -1,0 +1,80 @@
+h1{
+    font-family: 'bebas neue';
+    font-size: 3em;
+}
+
+label{
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+}
+
+input{
+    font-family: 'Lato';
+    font-size: 20px;
+}
+
+input[type=text]{
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 70em;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#chapeau{
+    height: 130px;
+}
+
+#paragraphe1{
+    height: 400px;
+}
+
+#paragraphe2{
+    height: 400px;
+}
+
+#paragraphe3{
+    height: 400px;
+}
+
+#conclusion{
+    height: 200px;
+}
+
+#tag{
+    width: 500px;
+    height: 150px;
+}
+
+#import{
+    width: 400px;
+}
+
+.button{
+    color:#FFF3FB;
+    background-color: #433E3F;
+    padding: 5px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lato';  
+    margin-left: 50px ;
+}
+
+.button:hover{
+    color: #FFF3FB;
+    background-color: #113638;
+}
+
+.importAlign{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
