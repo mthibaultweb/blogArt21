@@ -32,13 +32,13 @@ $page = basename($_SERVER["SCRIPT_FILENAME"]);
 <body class="corp">
 
     <?
-        include __DIR__ ."./front/includes/commons/navbar.php";
+        include __DIR__ ."front/includes/commons/navbar.php";
 
-        include __DIR__ ."./front/includes/components/cookies.php";
+        include __DIR__ ."front/includes/components/cookies.php";
 
-        include __DIR__ ."./front/includes/commons/banner.php";
+        include __DIR__ ."front/includes/commons/banner.php";
 
-        include __DIR__ ."./front/includes/components/presentation.php";
+        include __DIR__ ."front/includes/components/presentation.php";
 
     ?>
     <main class="wrapper">
