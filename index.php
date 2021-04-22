@@ -1,4 +1,4 @@
-<?
+<?php
 setcookie('page', 'accueil.php', 3600*24, null, null, false, true);
 $page = basename($_SERVER["SCRIPT_FILENAME"]);
 
@@ -31,7 +31,7 @@ $page = basename($_SERVER["SCRIPT_FILENAME"]);
 
 <body class="corp">
 
-    <?
+    <?php
         include __DIR__ ."front/includes/commons/navbar.php";
 
         include __DIR__ ."front/includes/components/cookies.php";
